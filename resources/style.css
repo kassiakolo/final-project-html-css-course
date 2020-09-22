@@ -1,10 +1,14 @@
 /* Universal Styles */
 
+html {
+  background-color: rgb(240, 240, 240);
+}
+
 * {
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 22px;
-  color: rgb(56, 55, 55);
-  background-color: white;
+  font-weight: normal;
+  color: rgb(70, 69, 69);
   position: relative;
   box-sizing: border-box;
   margin: 0;
@@ -33,30 +37,31 @@ img {
 
 #banner-content {
   background-color: rgb(214, 214, 214);
-}
-
-#banner-content .text,
-h4 {
-  background-color: rgb(214, 214, 214);
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-bottom: 24px;
+  padding: 70px 50px 0px 48px;
+  align-items: center;
 }
 
 #banner-content .text,
 h1 {
   background-color: rgb(214, 214, 214);
-  font-size: 3rem;
+  font-size: 2.2rem;
   font-weight: bold;
   margin-bottom: 24px;
 }
 
+#banner-content .text,
+h4 {
+  background-color: rgb(214, 214, 214);
+  font-size: 1.2rem;
+  font-weight: bolder;
+  margin-bottom: 40px;
+}
+
 #banner-content button {
   width: 100%;
-  height: auto;
-  background-color: gray;
+  height: 70px;
+  background-color: rgb(92, 91, 91);
   color: white;
-  padding: 16px 130px 16px 130px;
   border-radius: 4px;
 }
 
@@ -64,25 +69,30 @@ h1 {
 
 #main-info {
   display: flex;
+  border: 2px solid rgb(214, 214, 214);
 }
 
 .left-side {
   width: 60%;
-  border: 2px solid rgb(214, 214, 214);
+  border-right: 2px solid rgb(214, 214, 214);
   padding: 32px 24px 32px 24px;
 }
 
 .right-side {
   width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: flex-start;
 }
 
 #news-box {
+  height: 30%;
   display: flex;
   border: 2px solid rgb(214, 214, 214);
   padding: 16px;
 }
 
-#news-box .img {
+#news-box img {
   width: 35%;
 }
 
@@ -90,6 +100,10 @@ h1 {
   width: 65%;
   padding-left: 16px;
   vertical-align: middle;
+}
+
+.guest-lecture {
+  background-color: rgb(214, 214, 214);
 }
 
 /* Courses Section */
