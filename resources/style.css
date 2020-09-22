@@ -1,0 +1,138 @@
+/* Universal Styles */
+
+* {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  color: rgb(56, 55, 55);
+  background-color: white;
+  position: relative;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+/* Header */
+
+/* Banner Section */
+
+#banner-section {
+  display: flex;
+  padding: 32px 24px 32px 24px;
+  background-color: rgb(214, 214, 214);
+}
+
+#banner-section img {
+  background-color: rgb(214, 214, 214);
+  width: 60%;
+  padding-right: 24px;
+}
+
+#banner-content {
+  background-color: rgb(214, 214, 214);
+}
+
+#banner-content .text,
+h4 {
+  background-color: rgb(214, 214, 214);
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+#banner-content .text,
+h1 {
+  background-color: rgb(214, 214, 214);
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+#banner-content button {
+  width: 100%;
+  height: auto;
+  background-color: gray;
+  color: white;
+  padding: 16px 130px 16px 130px;
+  border-radius: 4px;
+}
+
+/* Main Info */
+
+#main-info {
+  display: flex;
+}
+
+.left-side {
+  width: 60%;
+  border: 2px solid rgb(214, 214, 214);
+  padding: 32px 24px 32px 24px;
+}
+
+.right-side {
+  width: 40%;
+}
+
+#news-box {
+  display: flex;
+  border: 2px solid rgb(214, 214, 214);
+  padding: 16px;
+}
+
+#news-box .img {
+  width: 35%;
+}
+
+#news-box .text {
+  width: 65%;
+  padding-left: 16px;
+  vertical-align: middle;
+}
+
+/* Courses Section */
+
+#courses-section {
+  background-color: rgb(214, 214, 214);
+}
+
+#courses-section h2 {
+  background-color: rgb(214, 214, 214);
+  text-align: center;
+  padding-top: 48px;
+}
+
+#courses-section .content {
+  background-color: rgb(214, 214, 214);
+  display: flex;
+  padding: 32px 72px 32px 88px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#course-box {
+  width: 30%;
+  background-color: white;
+  margin-right: 32px;
+  margin-top: 32px;
+}
+
+#course-box img {
+  height: auto;
+}
+
+#course-box .text {
+  padding: 16px 16px 32px 16px;
+}
+
+.text p {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  line-height: 1.5rem;
+}
+
+.text h3 {
+  padding-bottom: 8px;
+}
