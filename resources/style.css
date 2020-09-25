@@ -1,7 +1,7 @@
 /* Universal Styles */
 
 html {
-  background-color: rgb(240, 240, 240);
+  background-color: rgb(245, 244, 244);
 }
 
 * {
@@ -21,29 +21,69 @@ img {
 }
 /* Header */
 
+header {
+  background-color: white;
+  height: 65px;
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 9px 6px -6px rgba(58, 56, 56, 0.733);
+}
+
+header .content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 24px 25px 24px;
+}
+
+header .logo {
+  height: 100%;
+  display: flex;
+}
+
+.logo span {
+  color: rgb(70, 69, 69);
+  font-weight: bold;
+}
+
+.logo p {
+  color: rgb(158, 154, 154);
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav li {
+  padding-left: 1rem;
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+}
+
 /* Banner Section */
 
 #banner-section {
   display: flex;
-  padding: 32px 24px 32px 24px;
-  background-color: rgb(214, 214, 214);
+  padding: 100px 24px 32px 24px;
+  background-color: rgb(233, 230, 230);
 }
 
 #banner-section img {
-  background-color: rgb(214, 214, 214);
   width: 60%;
   padding-right: 24px;
 }
 
 #banner-content {
-  background-color: rgb(214, 214, 214);
   padding: 70px 50px 0px 48px;
   align-items: center;
 }
 
 #banner-content .text,
 h1 {
-  background-color: rgb(214, 214, 214);
   font-size: 2.2rem;
   font-weight: bold;
   margin-bottom: 24px;
@@ -51,7 +91,6 @@ h1 {
 
 #banner-content .text,
 h4 {
-  background-color: rgb(214, 214, 214);
   font-size: 1.2rem;
   font-weight: bolder;
   margin-bottom: 40px;
@@ -69,28 +108,29 @@ h4 {
 
 #main-info {
   display: flex;
-  border: 2px solid rgb(214, 214, 214);
 }
 
 .left-side {
   width: 60%;
   border-right: 2px solid rgb(214, 214, 214);
   padding: 32px 24px 32px 24px;
+  background-color: white;
 }
 
 .right-side {
   width: 40%;
   display: flex;
   flex-wrap: wrap;
-  align-self: flex-start;
+  align-self: center;
 }
 
 #news-box {
   height: 30%;
   display: flex;
-  border: 2px solid rgb(214, 214, 214);
-  padding: 16px;
+  border-top: 2px solid rgb(214, 214, 214);
+  padding: 24px 16px 24px 16px;
 }
+
 
 #news-box img {
   width: 35%;
@@ -102,24 +142,26 @@ h4 {
   vertical-align: middle;
 }
 
-.guest-lecture {
+#news-box.orientation-date {
+    border-top: 0px;
+}
+
+#news-box.our-campus {
   background-color: rgb(214, 214, 214);
 }
 
 /* Courses Section */
 
 #courses-section {
-  background-color: rgb(214, 214, 214);
+  background-color: rgb(233, 230, 230);
 }
 
 #courses-section h2 {
-  background-color: rgb(214, 214, 214);
   text-align: center;
   padding-top: 48px;
 }
 
 #courses-section .content {
-  background-color: rgb(214, 214, 214);
   display: flex;
   padding: 32px 72px 32px 88px;
   justify-content: space-around;
@@ -131,6 +173,7 @@ h4 {
   background-color: white;
   margin-right: 32px;
   margin-top: 32px;
+  box-shadow: 3px 5px 6px rgba(58, 56, 56, 0.733);
 }
 
 #course-box img {
