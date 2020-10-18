@@ -62,7 +62,10 @@ nav li {
 
 nav a {
   text-decoration: none;
+  font-size: 0.9rem;
 }
+
+
 
 /* Banner Section */
 
@@ -117,15 +120,15 @@ h4 {
   background-color: white;
 }
 
-.left-side h1{
-    font-size: 2rem;
-    padding-top: 15px;
+.left-side h1 {
+  font-size: 2rem;
+  padding-top: 15px;
 }
 
-.left-side p{
-    font-size: 0.8rem;
-    padding-top: 20px;
-    padding-bottom: 20px;
+.left-side p {
+  font-size: 0.8rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .right-side {
@@ -142,7 +145,6 @@ h4 {
   padding: 24px 16px 24px 16px;
 }
 
-
 #news-box img {
   width: 35%;
 }
@@ -153,8 +155,12 @@ h4 {
   vertical-align: middle;
 }
 
+#news-box h3 {
+  font-weight: bold;
+}
+
 #news-box.orientation-date {
-    border-top: 0px;
+  border-top: 0px;
 }
 
 #news-box.our-campus {
@@ -201,10 +207,85 @@ h4 {
   line-height: 1.5rem;
 }
 .text span {
-    color: rgb(158, 154, 154);
+  color: rgb(158, 154, 154);
 }
 
 #course-box .text h3 {
   padding-bottom: 8px;
   font-weight: bolder;
+}
+
+/* Thesis Section*/
+
+#thesis-section h1 {
+  text-align: center;
+  padding-top: 55px;
+  padding-bottom: 25px;
+}
+
+#thesis-section .content {
+  display: flex;
+  border-bottom: 2px solid rgb(214, 214, 214);
+}
+
+#thesis-section .left-side {
+  width: 60%;
+  padding: 32px 24px 32px 24px;
+  background-color: white;
+}
+
+#thesis-section .left-side h1 {
+  font-size: 2rem;
+  padding-top: 15px;
+  text-align: left;
+}
+
+#thesis-section .left-side p {
+  font-size: 0.8rem;
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+#video {
+  width: 100%;
+  padding-right: 24px;
+}
+
+#thesis-section .right-side {
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: flex-start;
+}
+
+#thesis-section.fisma{
+  height: 30%;
+  display: flex;
+  padding: 24px 16px 24px 16px;
+}
+
+#news-box img {
+  width: 35%;
+}
+
+#news-box .text {
+  width: 65%;
+  padding-left: 16px;
+  vertical-align: middle;
+}
+
+#news-box.now-and-then {
+  background-color: rgb(214, 214, 214);
+}
+
+/* Footer*/
+
+#footer {
+  height: 100px;
+}
+
+.copyright p {
+  text-align: left;
+  font-size: 0.8rem;
+  padding: 16px 0px 24px 30px;
 }
